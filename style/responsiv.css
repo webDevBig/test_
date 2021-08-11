@@ -22,6 +22,11 @@
         max-width: 1024px
     }
 
+    .section6 .row_box {
+        padding: 0 54px;
+        max-width: 100%;
+    }
+
     .section1 .text_box {
         padding: 0 8.1vw 0 0
     }
@@ -92,7 +97,7 @@
 
     .section7 .image {
         max-width: 566px;
-        margin: 20px -56px -20px 0px
+        margin: 20px -36px -20px -26px
     }
 
     .section7 {
