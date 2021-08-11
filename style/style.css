@@ -62,7 +62,11 @@ header .top_nav_menu {
     font-size: 15px;
     color: #2C6FBC;
     text-decoration: none;
-    cursor: pointer
+    cursor: pointer;
+}
+
+header .top_nav_menu:hover {
+    text-decoration: underline;
 }
 
 header .center_menu {
@@ -701,6 +705,10 @@ footer li a {
     color: #5C6E83;
     font-size: 16px;
     text-decoration: none
+}
+
+footer li a:hover {
+    text-decoration: underline;
 }
 
 footer .row_box:last-of-type {
