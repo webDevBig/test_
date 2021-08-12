@@ -1,20 +1,9 @@
-@media all and (max-width:1660px) {
-    .section1 .text_box {
-        padding: 0 9.1vw 0 0
-    }
-}
-
-@media all and (max-width:1440px) {
-    .section1 .text_box {
-        padding: 0 12.1vw 0 0
-    }
-}
-
 @media all and (max-width:1280px) {
 
     header .menu,
     nav.main_menu,
     .row_box,
+    .section1 .row_box,
     .section3 .do_box,
     .baner_box2 .row_box,
     .section7 .row_box,
@@ -27,9 +16,6 @@
         max-width: 100%;
     }
 
-    .section1 .text_box {
-        padding: 0 8.1vw 0 0
-    }
 
     .section2 .img_box {
         width: 50%
@@ -115,6 +101,7 @@
     header .menu,
     nav.main_menu,
     .row_box,
+    .section1 .row_box,
     .section3 .do_box,
     .baner_box2 .row_box,
     .section7 .row_box,
@@ -146,6 +133,14 @@
         height: 270px;
         margin: 40px -10px
     }
+
+    footer .row_box_center {
+        padding: 45px 0 85px;
+    }
+
+    footer .row_box {
+        padding: 20px 0;
+    }
 }
 
 @media all and (max-width:900px) {
@@ -170,6 +165,10 @@
     header .center_menu .top_nav_menu_list {
         max-width: max-content;
         padding: 0
+    }
+
+    .section1 .row_box {
+        padding: 0 0 0 40px;
     }
 
     .section1 .h1 {
@@ -495,13 +494,21 @@
         flex-wrap: wrap
     }
 
+    .section1 {
+        flex-direction: column;
+        height: auto;
+    }
+
     .section1 .row_box {
-        flex-direction: column
+        flex-direction: column;
+        padding: 30px 0 0;
     }
 
     .section1 .img_box {
         max-width: 100%;
-        margin: 30px 0 0
+        margin: 30px 0 0;
+        position: relative;
+        height: 250px;
     }
 
     .section2 .h1 {
@@ -659,7 +666,7 @@
     }
 
     footer .number_box p {
-        margin: 0
+        margin: 20px 0
     }
 
     footer .row_box_center {
@@ -672,6 +679,10 @@
     footer .clm_box:nth-of-type(5) {
         width: 48%;
         margin: 0 0 30px
+    }
+
+    footer .row_box {
+        justify-content: center;
     }
 
     header .center_menu {
